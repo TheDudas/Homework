@@ -1,0 +1,17 @@
+
+
+div.container {
+
+    border-width: 2px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: aqua;
+    text-shadow: 10px;
+}
+form {
+    padding-top: 20px;
+}
