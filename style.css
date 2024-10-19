@@ -13,18 +13,9 @@ form {
 h3 {
     text-align: center;
 }
-/* indent the unordered list a little more */
-ul  {
-    text-indent: 10px;
-}
 
 /* Align the text in a paragraph to be centered. */
 p {
     text-align: center;
 }
 
-/* To make table responsive in the three sizes */
-.table-responsive {
-    -sm | -md |-lg;
-    text-align: center;
-}
