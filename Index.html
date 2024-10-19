@@ -77,10 +77,10 @@
     </h4>
 </div> 
 
-<p>But Seriously,  Here is what we can do for you and we do this well.</p>
+<p>But Seriously - This is what we can do for you and we do this well.</p>
 <!-- because I like the Card display portions better than the text or plain containers.  -->
 
-<div class="row">
+<div class="row"> <!-- three cards listing business services with an image similar to the topic.  Button to go immediately to page to sign up.-->
   <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card w=40">
       <div class="card-body">
@@ -114,55 +114,58 @@
   </div>
 </div>
 
-
-    <!-- <h2>Services Offered for Website design and Build.</h2>  -->
-    <div class="container text-center">Details for Website Design and Build  <!-- striped dark table from Bootstrap. centered the Package Numbers -->
-    <table class="table table-striped table-dark">
-        <thead>
-          <tr>                                    
-            <th scope="col">Package Number</th>
-            <th scope="col">Basic</th>
-            <th scope="col">Intermediate</th>
-            <th scope="col">Advanced</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th class="row justify-content-md-center" scope="row">1</th>  <!-- used Content-md-center to center the numbers under Package Number.-->
-            <td>2 Page Website</td>
-            <td>3 Page Website</td>
-            <td>5 Pages or More</td>
-          </tr>
-          <tr>
-            <th class="row justify-content-md-center" scope="row">2</th>
-            <td>One Table or Grid</td>
-            <td>Two tables or Grid with a Form</td>
-            <td>More than two Tables or Forms for additional fee.</td>
-          </tr>
-          <tr>
-            <th class="row justify-content-md-center" scope="row">3</th>
-            <td>maximum of 3 images, with NavBar</td>
-            <td>Max of 5 images, NavBar with optional dropdowns. Form to collect Visitor Data.</td>
-            <td>Max of 15 images, Multiple Tables or Forms, Dropdowns with Logic and Ecommerce Ready.</td>
-          </tr>
-        </tbody>
-      </table>
+    <!-- container around the Table for listing services-->
+    <div class="container text-center">Details for Website Design and Build  <!-- striped dark table from Bootstrap. centered the Package Numbers, Horizontally responsive. -->
+      <div class="table-responsive" {-sm | -md |-lg;}>
+        <table class="table table-striped">
+          <thead class="table-secondary">
+            <tr>                                    
+              <th scope="col">Options Included</th>
+              <th scope="col">Silver</th>
+              <th scope="col">Gold</th>
+              <th scope="col">Platinum</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+                <th class="row justify-content-md-center" scope="row">Number of Pages</th>  <!-- used Content-md-center to center the numbers under Package Number.-->
+                  <td>Two Page Website</td>  <!-- table data has content of what is included in a website package.-->
+                  <td>Three Page Website</td>
+                  <td>Five Pages or More for Additional Fee</td>
+            </tr>
+            <tr>
+              <th class="row justify-content-md-center" scope="row">Tables or Forms</th> 
+              <td>One Table or Grid</td>
+              <td>Two tables or Grid with a Form</td>
+              <td>More than two Tables or Forms for additional fee.</td>
+            </tr>
+            <tr>
+              <th class="row justify-content-md-center" scope="row">Images, additional Fee options</th>
+              <td>Maximum of 3 images, with NavBar</td>
+              <td>Max of 5 images, NavBar with optional dropdowns. Form to collect Visitor Data.</td>
+              <td>Max of 15 images, Multiple Tables or Forms, Dropdowns with Logic and Ecommerce Ready.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
 
-<grid>
-
-</grid>
-
-
-<footer sticky-bottom>
-  (CR) John Dudas
-</footer>
+<div class="card text-center" Sticky-bottom>  <!-- card form that is acting as a Footer-->
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">John Dudas Website Design</h5>
+    <p class="card-text">Thank you for visiting. Come back soon. </p>
+    <a href="Index.html" class="btn btn-primary">Go to Top</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+    Bye bye
+  </div>
+</div>
 
 <!-- link to Bootstrap JS  and jQuery for Bootstrap functionality -->
 <script src="node_modules/jquery/dist/jquery.js"> </script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-<p>
-  <a href="Index.html">Go to Top</a>
-</p>
+
 </body>
 </html>
