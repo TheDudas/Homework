@@ -1,7 +1,7 @@
 
 
 div.container {
-
+    text-emphasis-style: bold;
     border-width: 2px;
     border-radius: 10px;
     padding-top: 20px;
@@ -9,9 +9,19 @@ div.container {
 
 h2 {
     text-align: center;
-    text-decoration: aqua;
     text-shadow: 10px;
 }
 form {
     padding-top: 20px;
+}
+h3 {
+    text-align: center;
+    text-decoration-color: blue;
+}
+ul  {
+    text-indent: 10px;
+}
+
+p {
+    text-align: center;
 }
